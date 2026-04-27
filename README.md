@@ -54,26 +54,34 @@ El ecosistema de WaveFrame está compuesto por las herramientas más potentes de
 *Explora la experiencia inmersiva y de alta fidelidad de WaveFrame Studio:*
 
 <div align="center">
-  <img src="public/assets/screenshots/hero.png" alt="Hero Section" style="border-radius: 12px; border: 1px solid #1e293b; margin-bottom: 20px;" width="800" />
-  <p><i>Interfaz Principal // Hero Section con Escena 3D</i></p>
-  
-  <br />
-
-  <img src="public/assets/screenshots/about.png" alt="About Section" style="border-radius: 12px; border: 1px solid #1e293b; margin-bottom: 20px;" width="800" />
-  <p><i>Propuesta de Valor // Filosofía de Diseño</i></p>
-  
-  <br />
-
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
-    <img src="public/assets/screenshots/architecture.png" alt="Architecture" style="border-radius: 10px; border: 1px solid #1e293b;" />
-    <img src="public/assets/screenshots/features.png" alt="Features" style="border-radius: 10px; border: 1px solid #1e293b;" />
-  </div>
-  <p><i>Arquitectura de Sistemas & Ecosistemas Digitales</i></p>
-
-  <br />
-
-  <img src="public/assets/screenshots/contact.png" alt="Contact Section" style="border-radius: 12px; border: 1px solid #1e293b;" width="800" />
-  <p><i>Sección de Contacto // Conversión & Estrategia</i></p>
+  <table style="border-collapse: collapse; border: 1px solid #1e293b; width: 100%; max-width: 900px;">
+    <tr>
+      <td align="center" style="border: 1px solid #1e293b; padding: 10px; width: 50%;">
+        <img src="public/assets/screenshots/hero.png" alt="Hero Section" style="width: 100%; border-radius: 4px;" />
+        <br /><i>Pantalla Principal — Home Section</i>
+      </td>
+      <td align="center" style="border: 1px solid #1e293b; padding: 10px; width: 50%;">
+        <img src="public/assets/screenshots/about.png" alt="About Section" style="width: 100%; border-radius: 4px;" />
+        <br /><i>Nuestra Esencia — Sobre Nosotros</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="border: 1px solid #1e293b; padding: 10px; width: 50%;">
+        <img src="public/assets/screenshots/architecture.png" alt="Architecture" style="width: 100%; border-radius: 4px;" />
+        <br /><i>Arquitectura — Sistemas Avanzados</i>
+      </td>
+      <td align="center" style="border: 1px solid #1e293b; padding: 10px; width: 50%;">
+        <img src="public/assets/screenshots/features.png" alt="Features" style="width: 100%; border-radius: 4px;" />
+        <br /><i>Sistemas Core — Características</i>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" style="border: 1px solid #1e293b; padding: 10px;">
+        <img src="public/assets/screenshots/contact.png" alt="Contact Section" style="width: 80%; border-radius: 4px;" />
+        <br /><i>Contacto — Tu proyecto empieza aquí</i>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br />
