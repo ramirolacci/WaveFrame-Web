@@ -1,18 +1,20 @@
 <div align="center">
-  <img src="./public/favicon.svg" alt="WaveFrame Logo" width="120" />
+  <img src="public/favicon.svg" alt="WaveFrame Logo" width="120" />
   
   # WAVEFRAME
   ### *Digital Engineering & Avant-Garde Design*
 
-  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-  ![Three.js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
-  ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  ![GSAP](https://img.shields.io/badge/GSAP-%2388CE02.svg?style=for-the-badge&logo=greensock&logoColor=black)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+  [![React](https://img.shields.io/badge/React-19-0ea5e9?style=flat-square&logo=react)](https://reactjs.org/)
+  [![Three.js](https://img.shields.io/badge/Three.js-WebGL-white?style=flat-square&logo=three.js)](https://threejs.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+  [![GSAP](https://img.shields.io/badge/GSAP-Animation-88ce02?style=flat-square)](https://greensock.com/gsap/)
 
   ---
 
   **WaveFrame** es una plataforma de vanguardia diseñada para redefinir la presencia digital a través de la fusión perfecta entre ingeniería de alto impacto y estética visual inmersiva.
 
+  [Explorar Demo](#) • [Ver Manifiesto](#) • [Contacto](#)
 </div>
 
 <br />
