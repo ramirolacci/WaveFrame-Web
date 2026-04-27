@@ -98,8 +98,8 @@ export function StorySection() {
       chapters.forEach((_, i) => {
         ScrollTrigger.create({
           trigger: `.chapter-trigger-${i}`,
-          start: "top 50%",
-          end: "bottom 50%",
+          start: "top center",
+          end: "bottom center",
           onEnter: () => setActiveChapter(i),
           onEnterBack: () => setActiveChapter(i),
         })
@@ -135,10 +135,10 @@ export function StorySection() {
         </Canvas>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-0 lg:gap-20">
+      <div className="relative max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-start justify-between gap-0 lg:gap-10 xl:gap-20">
         {/* Left Content (Pinned on Desktop) */}
-        <div ref={leftRef} className="w-full lg:w-1/2 h-auto lg:h-screen flex items-center z-20 pointer-events-none lg:pointer-events-auto py-20 lg:py-0">
-          <div className="story-card w-full glass-card p-10 md:p-14 rounded-[3rem] border border-white/5 space-y-8 backdrop-blur-3xl shadow-2xl pointer-events-auto">
+        <div ref={leftRef} className="w-full lg:flex-1 h-auto lg:h-screen flex items-center z-20 pointer-events-none lg:pointer-events-auto py-20 lg:py-0">
+          <div key={activeChapter} className="story-card w-full glass-card p-10 md:p-14 rounded-[3rem] border border-white/5 space-y-8 backdrop-blur-3xl shadow-2xl pointer-events-auto animate-fade-in">
             <div className="flex items-center justify-between">
               <span className="text-8xl font-black text-white/10 leading-none">{chapters[activeChapter].num}</span>
               <div className="w-20 h-20 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10">
@@ -183,7 +183,7 @@ export function StorySection() {
         </div>
 
         {/* Right Scroll Area */}
-        <div className="w-full lg:w-1/2 z-10">
+        <div className="w-full lg:flex-1 z-10">
           {chapters.map((ch, i) => (
             <div key={i} className={`chapter-trigger-${i} min-h-[100vh] flex flex-col justify-center`}>
               {/* Mobile Card - Only visible on small screens */}
