@@ -51,18 +51,29 @@ El ecosistema de WaveFrame está compuesto por las herramientas más potentes de
 <br />
 
 ## 📸 Galería Visual
-*A continuación se muestran capturas de la experiencia inmersiva de WaveFrame:*
+*Explora la experiencia inmersiva y de alta fidelidad de WaveFrame Studio:*
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450/060c14/3dd6f5?text=WaveFrame+Hero+Section" alt="Hero Preview" style="border-radius: 10px; border: 1px solid #1e293b;" />
-  <p><i>Interfaz HUD y Escena 3D Interactiva</i></p>
+  <img src="public/assets/screenshots/hero.png" alt="Hero Section" style="border-radius: 12px; border: 1px solid #1e293b; margin-bottom: 20px;" width="800" />
+  <p><i>Interfaz Principal // Hero Section con Escena 3D</i></p>
   
   <br />
 
-  <div style="display: flex; gap: 10px; justify-content: center;">
-    <img src="https://via.placeholder.com/395x220/060c14/3dd6f5?text=Feature+Grid" alt="Features Preview" style="border-radius: 8px; border: 1px solid #1e293b;" />
-    <img src="https://via.placeholder.com/395x220/060c14/3dd6f5?text=Showcase+Section" alt="Showcase Preview" style="border-radius: 8px; border: 1px solid #1e293b;" />
+  <img src="public/assets/screenshots/about.png" alt="About Section" style="border-radius: 12px; border: 1px solid #1e293b; margin-bottom: 20px;" width="800" />
+  <p><i>Propuesta de Valor // Filosofía de Diseño</i></p>
+  
+  <br />
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+    <img src="public/assets/screenshots/architecture.png" alt="Architecture" style="border-radius: 10px; border: 1px solid #1e293b;" />
+    <img src="public/assets/screenshots/features.png" alt="Features" style="border-radius: 10px; border: 1px solid #1e293b;" />
   </div>
+  <p><i>Arquitectura de Sistemas & Ecosistemas Digitales</i></p>
+
+  <br />
+
+  <img src="public/assets/screenshots/contact.png" alt="Contact Section" style="border-radius: 12px; border: 1px solid #1e293b;" width="800" />
+  <p><i>Sección de Contacto // Conversión & Estrategia</i></p>
 </div>
 
 <br />
@@ -71,5 +82,5 @@ El ecosistema de WaveFrame está compuesto por las herramientas más potentes de
 
 <div align="center">
   <p>Diseñado con pasión por la innovación tecnológica.</p>
-  <p><b>WaveFrame // 2026</b></p>
+  <p><b>WaveFrame Studio // 2026</b></p>
 </div>
