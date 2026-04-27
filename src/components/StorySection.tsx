@@ -195,19 +195,43 @@ export function StorySection() {
               
               {/* Desktop Progress Line */}
               <div className="hidden lg:block w-full h-px bg-white/5 relative">
-                <div className="absolute left-0 top-1/2 -translate-y-1/2 flex items-center gap-6">
-                  <div 
-                    className={`w-4 h-4 rounded-full transition-all duration-700 ${i === activeChapter ? "scale-150 rotate-45" : "scale-100"}`} 
-                    style={{ 
-                      backgroundColor: i === activeChapter ? ch.color : "rgba(255,255,255,0.05)",
-                      boxShadow: i === activeChapter ? `0 0 20px ${ch.color}` : "none",
-                      borderRadius: i === activeChapter ? "4px" : "50%"
-                    }} 
-                  />
-                  <span className={`text-[11px] font-bold tracking-[0.4em] uppercase transition-all duration-500 ${i === activeChapter ? "text-white translate-x-2" : "text-white/5"}`}>
-                    Phase {ch.num}
-                  </span>
-                </div>
+                  <div className={`flex items-center gap-6 transition-all duration-700 ${i === activeChapter ? "translate-x-4" : "translate-x-0"}`}>
+                    <div 
+                      className={`w-4 h-4 rounded-full transition-all duration-700 ${i === activeChapter ? "scale-150 rotate-45" : "scale-100"}`} 
+                      style={{ 
+                        backgroundColor: i === activeChapter ? ch.color : "rgba(255,255,255,0.05)",
+                        boxShadow: i === activeChapter ? `0 0 20px ${ch.color}` : "none",
+                        borderRadius: i === activeChapter ? "4px" : "50%"
+                      }} 
+                    />
+                    
+                    <div className="flex flex-col">
+                      <span className={`text-[11px] font-bold tracking-[0.4em] uppercase transition-all duration-500 ${i === activeChapter ? "text-white" : "text-white/5"}`}>
+                        Phase {ch.num}
+                      </span>
+                      
+                      {/* Telemetry Graphic */}
+                      <div className={`flex items-center gap-3 mt-2 transition-all duration-700 ${i === activeChapter ? "opacity-100" : "opacity-0"}`}>
+                        <div className="flex gap-0.5 items-end h-3">
+                          {[1, 2, 3, 4, 5, 6].map(bar => (
+                            <div 
+                              key={bar}
+                              className="w-[2px] bg-white/20"
+                              style={{ 
+                                height: `${20 + Math.random() * 80}%`,
+                                backgroundColor: ch.color,
+                                animation: i === activeChapter ? `pulse-height 1s infinite ${bar * 0.1}s` : 'none'
+                              }}
+                            />
+                          ))}
+                        </div>
+                        <div className="flex flex-col text-[7px] font-mono leading-none tracking-widest text-white/40">
+                          <span>DAT_FLOW // {i === activeChapter ? "SYNCING" : "IDLE"}</span>
+                          <span className="mt-0.5 opacity-50">STRE_AM.0{i+1}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           ))}
