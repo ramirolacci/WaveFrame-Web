@@ -198,11 +198,17 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-10">
-            <button className="hero-cta cyber-button px-10 py-5 text-lg">
+            <button 
+              onClick={() => document.getElementById('showcase')?.scrollIntoView({ behavior: 'smooth' })}
+              className="hero-cta cyber-button px-10 py-5 text-lg"
+            >
               Explorar trabajos
             </button>
-            <button className="hero-cta px-10 py-5 text-lg rounded-xl font-black text-white/50 hover:text-white transition-colors tracking-widest uppercase text-xs">
-              Ver Manifiesto // 01
+            <button 
+              onClick={() => document.getElementById('story')?.scrollIntoView({ behavior: 'smooth' })}
+              className="hero-cta px-10 py-5 text-lg rounded-xl font-black text-white/50 hover:text-white transition-colors tracking-widest uppercase text-xs"
+            >
+              Cómo trabajamos // 01
             </button>
           </div>
         </div>

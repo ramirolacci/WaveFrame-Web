@@ -74,6 +74,9 @@ html {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
   }
+  a, button {
+    cursor: pointer;
+  }
 }
 
 /* Custom Scrollbar */
