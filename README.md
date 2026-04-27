@@ -4,17 +4,15 @@
   # WAVEFRAME
   ### *Digital Engineering & Avant-Garde Design*
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-  [![React](https://img.shields.io/badge/React-19-0ea5e9?style=flat-square&logo=react)](https://reactjs.org/)
-  [![Three.js](https://img.shields.io/badge/Three.js-WebGL-white?style=flat-square&logo=three.js)](https://threejs.org/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-  [![GSAP](https://img.shields.io/badge/GSAP-Animation-88ce02?style=flat-square)](https://greensock.com/gsap/)
+  ![React](https://img.shields.io/badge/React-19-0ea5e9?style=flat-square&logo=react)
+  ![Three.js](https://img.shields.io/badge/Three.js-WebGL-white?style=flat-square&logo=three.js)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=flat-square&logo=tailwind-css)
+  ![GSAP](https://img.shields.io/badge/GSAP-Animation-88ce02?style=flat-square)
 
   ---
 
   **WaveFrame** es una plataforma de vanguardia diseñada para redefinir la presencia digital a través de la fusión perfecta entre ingeniería de alto impacto y estética visual inmersiva.
 
-  [Explorar Demo](#) • [Ver Manifiesto](#) • [Contacto](#)
 </div>
 
 <br />
