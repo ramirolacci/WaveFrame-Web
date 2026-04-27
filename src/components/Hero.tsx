@@ -199,13 +199,13 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-10">
             <button 
-              onClick={() => document.getElementById('showcase')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+              onClick={() => document.getElementById('showcase')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
               className="hero-cta cyber-button px-10 py-5 text-lg"
             >
               Explorar trabajos
             </button>
             <button 
-              onClick={() => document.getElementById('story')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+              onClick={() => document.getElementById('story')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
               className="hero-cta px-10 py-5 text-lg rounded-xl font-black text-white/50 hover:text-white transition-colors tracking-widest uppercase text-xs"
             >
               Cómo trabajamos // 01

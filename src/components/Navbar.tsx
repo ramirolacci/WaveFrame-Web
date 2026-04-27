@@ -28,7 +28,7 @@ export function Navbar() {
     setMobileOpen(false)
     const element = document.querySelector(href)
     if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "center" })
+      element.scrollIntoView({ behavior: "smooth", block: "start" })
     }
   }
 

@@ -98,7 +98,7 @@ export function Features() {
   }, [])
 
   return (
-    <section ref={sectionRef} id="features" className="relative py-40 overflow-hidden">
+    <section ref={sectionRef} id="features" className="relative pt-10 pb-40 overflow-hidden scroll-mt-32">
       <div className="absolute inset-0 bg-grid opacity-10 mask-radial" />
       
       <div className="relative max-w-7xl mx-auto px-6">

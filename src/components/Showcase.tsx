@@ -74,7 +74,7 @@ export function Showcase() {
   })()
 
   return (
-    <section ref={sectionRef} id="showcase" className="relative py-32 overflow-hidden">
+    <section ref={sectionRef} id="showcase" className="relative pt-10 pb-32 overflow-hidden scroll-mt-32">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-b from-card/20 via-card/40 to-card/20" />
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[600px] h-[600px] bg-chart-2/5 rounded-full blur-[120px] pointer-events-none" />

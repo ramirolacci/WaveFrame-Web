@@ -123,7 +123,7 @@ export function StorySection() {
   }, [])
 
   return (
-    <section ref={sectionRef} id="story" className="relative bg-[#060c14] z-10">
+    <section ref={sectionRef} id="story" className="relative bg-[#060c14] z-10 scroll-mt-32">
       {/* Fixed 3D Scene */}
       <div className="fixed inset-0 pointer-events-none opacity-40 z-0">
         <Canvas 

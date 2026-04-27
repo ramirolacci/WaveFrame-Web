@@ -27,15 +27,7 @@ function Starfield() {
   })
 
   return (
-    <Points ref={ref}>
-      <bufferGeometry>
-        <bufferAttribute
-          attach="attributes-position"
-          count={positions.length / 3}
-          array={positions}
-          itemSize={3}
-        />
-      </bufferGeometry>
+    <Points ref={ref} positions={positions}>
       <PointMaterial transparent color="#3dd6f5" size={0.05} sizeAttenuation={true} depthWrite={false} />
     </Points>
   )
@@ -60,7 +52,7 @@ export function CTASection() {
   }, [])
 
   return (
-    <section ref={sectionRef} id="cta" className="relative py-60 overflow-hidden bg-[#060c14]">
+    <section ref={sectionRef} id="cta" className="relative pt-2 pb-32 overflow-hidden bg-[#060c14] scroll-mt-32">
       <div className="absolute inset-0 z-0">
         <Canvas 
           camera={{ position: [0, 0, 5] }}
