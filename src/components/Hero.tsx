@@ -179,7 +179,7 @@ export function Hero() {
       <HUD />
 
       {/* Main Content */}
-      <div className="relative z-20 max-w-7xl mx-auto px-6 text-center mt-[-5vh]">
+      <div className="relative z-20 max-w-7xl mx-auto px-6 text-center mt-[-10vh]">
         <div className="space-y-8">
           <div className="flex flex-col items-center">
             <div className="title-reveal inline-flex items-center gap-2 glass px-5 py-2 rounded-full border border-white/10 mb-8">
@@ -187,7 +187,7 @@ export function Hero() {
               <span className="text-xs font-black tracking-[0.4em] uppercase text-white/70">Empresa de Desarrollo de Software</span>
             </div>
 
-            <h1 ref={titleRef} className="text-[12vw] md:text-[10vw] font-black leading-[0.8] tracking-tighter text-white uppercase italic overflow-hidden">
+            <h1 ref={titleRef} className="text-[12vw] md:text-[10vw] font-black leading-[0.9] tracking-tighter text-white uppercase italic overflow-visible py-2">
               <span className="title-reveal title-glitch block">{currentPhrase[0]}</span>
               <span className="title-reveal text-gradient block not-italic">{currentPhrase[1]}</span>
             </h1>
