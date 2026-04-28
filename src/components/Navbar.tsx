@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react"
 import { gsap } from "gsap"
 
 const links = [
+  { label: "Inicio", href: "#hero" },
   { label: "Servicios", href: "#features" },
   { label: "Tech", href: "#showcase" },
   { label: "Estudio", href: "#story" },
