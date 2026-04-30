@@ -43,8 +43,8 @@ export function Navbar() {
         <button onClick={() => scrollTo("#hero")} className="flex items-center gap-3 group cursor-pointer">
           {/* Logo Icon - Hidden at top, shown on scroll */}
           <div 
-            className={`relative flex items-center justify-center transition-all duration-500 transform ${
-              scrolled ? "opacity-100 scale-100 w-auto" : "opacity-0 scale-50 w-0 overflow-hidden"
+            className={`relative flex items-center justify-center overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] origin-left ${
+              scrolled ? "opacity-100 scale-100 w-[34px] mr-1" : "opacity-0 scale-50 w-0 mr-0"
             }`}
           >
             <svg width="34" height="24" viewBox="0 0 256 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-[0_0_8px_rgba(0,255,136,0.4)]">
