@@ -2,10 +2,9 @@ import { useEffect, useRef, useState } from "react"
 import { gsap } from "gsap"
 
 const links = [
-  { label: "Inicio", href: "#hero" },
   { label: "Servicios", href: "#features" },
-  { label: "Tech", href: "#showcase" },
-  { label: "Estudio", href: "#story" },
+  { label: "Infraestructura", href: "#showcase" },
+  { label: "Nosotros", href: "#about" },
   { label: "Contacto", href: "#cta" },
 ]
 
@@ -41,7 +40,7 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <div className="flex items-center gap-3 group cursor-pointer">
+        <button onClick={() => scrollTo("#hero")} className="flex items-center gap-3 group cursor-pointer">
           {/* Logo Icon - Hidden at top, shown on scroll */}
           <div 
             className={`relative flex items-center justify-center transition-all duration-500 transform ${
@@ -66,7 +65,7 @@ export function Navbar() {
             <span className="bg-gradient-to-r from-[#6040ff] to-[#ff4081] bg-clip-text text-transparent">Frame</span>
             <span className="text-white/40 ml-1.5 font-bold italic text-sm tracking-widest uppercase">Studio</span>
           </span>
-        </div>
+        </button>
 
         <div className="hidden md:flex items-center gap-2 p-1.5 glass rounded-full border border-white/5">
           {links.map((l) => (
